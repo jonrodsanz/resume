@@ -1,0 +1,90 @@
+/*RESUME PROJECT @jonrodsanz*/
+/*21/09/2018 10:48PM GTM -5*/
+
+body {
+    overflow-x: hidden;
+}
+/*HEADER*/
+.header {
+    background-image: url(https://wallpapercave.com/wp/wp1828955.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.header--profile {
+     max-height: 230px;
+     margin-top: 20px; 
+     margin-bottom: 20px;
+}
+
+.header--information{
+    margin-top: 10px;
+}
+
+/*TECHNOLOGIES SECTION*/
+.technologies {
+    background-image: url(https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/lines-of-code.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.technologies--title { margin-bottom: 25px; }
+
+.technologies--images{
+    margin-top: 15px;
+    max-width: 130px;
+    max-height: 150px;
+}
+.javascript{
+    height: 140px;
+}
+
+/*PROJECTS SECTION*/
+.card {
+    width: 100%;
+    transform: scale(0.9);
+}
+/*
+.card:hover {
+    transform: scale(0.93);
+    transition: .3s;
+}*/
+
+/*EXTRACLASES*/
+.margin-superior { margin-top: 20px; }
+.subtitle { margin-bottom: 25px; }
+
+
+/*MEDIA QUERY*/
+/*PHONES WIDTH OR LESS*/
+@media screen and (max-width: 760px){
+    body{
+        font-size: 0.9rem;
+    }
+    .technologies--images{
+        margin-top: 15px;
+        max-width: 110px;
+        max-height: 130px;
+        margin-bottom: 20px;
+    }
+
+    .header--profile{
+        height: 150px;
+        margin-top: 0;
+    }
+
+    .header--information{
+        padding: 0 30px;
+        margin-top: 5px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+    .card:last-of-type{
+        margin-bottom: 0px;
+    }
+}
