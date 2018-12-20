@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="https://cdn.vectoricons.net/wp-content/themes/checkout-child/images/me-as-icon-with-glass-transparent.png">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -17,13 +17,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <!--Own styles-->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="typed.js-master/lib/typed.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
     <title>Jonathan Rodriguez</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
       <img style="height: 20px" src="https://cdn.vectoricons.net/wp-content/themes/checkout-child/images/me-as-icon-with-glass-transparent.png" alt="">
   </a>
@@ -34,39 +31,18 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Carrera <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Carrera</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Habilidades Tecnologicas
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contacto</a>
+        <a class="nav-link" href="#projects">Proyectos</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
   </div>
 </nav>
-    <div class="container-fluid  py-3 text-white bg-dark header">
+    <div class="container-fluid py-3 text-white bg-dark header">
         <div class="row text-center">
             <div class="col-12 header--presentation">
-                <br><br>
-                <h3 style="display: inline">Jonathan Rodriguez Sanchez</h3>
-                <br><br>
-                <h4 style="display: inline; background: gray" class="letras"></h4>
+                <h3 class="pt-4">Jonathan Rodriguez Sanchez</h3>
             </div>
         </div>
     </div>
@@ -95,59 +71,95 @@
             <div class="col-md-1"></div>
         </div>
     </div>
-    <div class="container-fluid text-center text-white bg-dark py-4 technologies">
-        <div class="row">
-            <div data-aos="zoom-in" data-aos-once="false" class="col-md-3 col-6">
-                
-                <img class="technologies--images" src="https://www.learncodinganywhere.com/images/courses/html5.png" alt="">
-            </div>
-            <div data-aos="zoom-in" data-aos-once="false" class="col-md-3 col-6">
-                
-                <img class="technologies--images" src="https://image.flaticon.com/icons/png/512/732/732190.png" alt="">
-            </div>
-            <div data-aos="zoom-in" data-aos-once="false" class="col-md-3 col-6">
-                
-                <img class="technologies--images javascript" src="https://antoineguillot.files.wordpress.com/2016/07/learn-javascript.png?w=344" alt="">
-            </div>
-            <div data-aos="zoom-in" data-aos-once="false" class="col-md-3 col-6">
-                
-                <img class="technologies--images" src="http://blog.getbootstrap.com/img/bootstrap-social-logo.png" alt="">
+    <div class="bg-dark technologies py-4" >
+        <div class="container text-center text-white">
+            <div class="row">
+                <div data-aos="zoom-in" data-aos-once="true" class="col-md-3 col-6">
+                    
+                    <img class="technologies--images" src="https://www.learncodinganywhere.com/images/courses/html5.png" alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-once="true" class="col-md-3 col-6">
+                    
+                    <img class="technologies--images" src="https://image.flaticon.com/icons/png/512/732/732190.png" alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-once="true" class="col-md-3 col-6">
+                    
+                    <img class="technologies--images javascript" src="https://antoineguillot.files.wordpress.com/2016/07/learn-javascript.png?w=344" alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-once="true" class="col-md-3 col-6">
+                    <img class="technologies--images" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid bg-dark text-center" style="padding: 40px 40px 20px 40px;">
-        <div class="row" style="margin-bottom: 25px">
-            <div class="col-md-6">
-                <div class="card">
-                    <img class="card-img-top" src="img/sample1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <a href="https://jonrodsanz.gitlab.io/practica1/" target="_blank" style="text-decoration: none; color: #343a40">
-                           <h6 class="card-title">Arquitectura Moderna (Responsive)</h6>
+    <div class="bg-dark">
+        <div class="container text-center" id="projects" style="padding: 40px 40px 20px 40px;">
+            <div class="row" style="margin-bottom: 25px">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
+                            <img class="card-img-top" src="img/projects/Chat.jpg" alt="Card image cap">
                         </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Chat</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img class="card-img-top" src="img/sample3.jpg" alt="Card image cap">
-                    <div class="card-body">
+                <div class="col-md-4">
+                    <div class="card">
                         <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
-                           <h6 class="card-title">Biografía de Linus Torvalds</h6>
+                            <img class="card-img-top" src="img/projects/AdressBook.jpg" alt="Card image cap">
                         </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Sistema de contactos</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
+                            <img class="card-img-top" src="img/projects/Loteria.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Loteria</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
+                            <img class="card-img-top" src="img/projects/Todo.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Lista de pendientes</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
+                            <img class="card-img-top" src="img/projects/Pokemon.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Buscador de Tarjetas Pokemon</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="javascript:void(0)" style="text-decoration: none; color: #343a40">
+                            <img class="card-img-top" src="img/projects/MarvelStore.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title">Sitio web de Comics</h6>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
     <script>
       AOS.init();
-       var options = {
-        strings: ["Estudiante", "Desarrollador Front-End Jr."],
-        typeSpeed: 45
-    }
-    var typed = new Typed(".letras", options);
     </script>
 </body>
 </html>
