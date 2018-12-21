@@ -3,14 +3,21 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'roboto', sans-serif;
 }
 /*HEADER*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header,.technologies{
     background-image: url(https://wallpapercave.com/wp/wp1828955.jpg);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(49, 47, 47);
     background-blend-mode: soft-light;
 }
 
@@ -40,7 +47,7 @@ body {
     max-height: 140px;
 }
 .javascript{
-    height: 130px;
+    height: 125px;
 }
 
 /*PROJECTS SECTION*/
