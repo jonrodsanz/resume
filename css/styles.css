@@ -5,8 +5,19 @@ body {
     overflow-x: hidden;
     font-family: 'roboto', sans-serif;
 }
+
+.bg-navbar {
+    background-color: #1f1e1e;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
 /*HEADER*/
 .header {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +37,14 @@ body {
 }
 
 .header--profile {
-     max-height: 210px;
-     margin-top: 20px; 
-     margin-bottom: 20px;
+     max-height: 190px;
+     margin-bottom: 40px;
+}
+
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header--information{
@@ -42,9 +58,8 @@ body {
 .technologies--title { margin-bottom: 25px; }
 
 .technologies--images{
-    margin-top: 15px;
-    max-width: 120px;
-    max-height: 140px;
+    margin: 15px 0;
+    height: 110px;
 }
 .javascript{
     height: 125px;
@@ -83,7 +98,11 @@ body {
 
     .header--profile{
         height: 150px;
-        margin-top: 0;
+        margin: 15px;
+    }
+
+    .header-left{
+        display: block;
     }
 
     .header--information{
